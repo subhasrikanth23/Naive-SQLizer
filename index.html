@@ -49,19 +49,11 @@
             <p>Get me all drinkers with the name "Smith" who enjoy "Bud Light"</p>
             <p>Get me all drinkers with the name "Jane" who frequent "John's" </p>
             <div id = "form">
-<<<<<<< HEAD
               <label>Query: </label><input type = "text" name = "query" id = "query" value = "Enter a query!"/><br /><br />
-=======
-              <label>Query: </label><input type = "text" name = "query" id = "query" value = "<?php if(isset($_POST['ask'])){echo $_POST['query'];} else{echo "Enter a query!";}?>"/><br /><br />
->>>>>>> 689c4d85ca2d30d78a1debedc14977ffb94f36a1
               <button type="button" name = "ask" value = "ask" onclick="parse($('input:first').val(),0);">Ask</button><br /><br />
               <button type="button" name = "clear" value = "clear" onclick="clearAll();">Clear All</button><br />
             </div>
             <div id = "answer"></div>
         </center>
     </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 689c4d85ca2d30d78a1debedc14977ffb94f36a1
